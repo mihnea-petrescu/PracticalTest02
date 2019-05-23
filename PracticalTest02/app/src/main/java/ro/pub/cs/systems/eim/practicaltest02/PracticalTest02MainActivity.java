@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class PracticalTest02MainActivity​ extends AppCompatActivity {
+public class PracticalTest02MainActivity extends AppCompatActivity {
     Button startServer;
     Button sendCommand;
 
@@ -62,7 +62,7 @@ public class PracticalTest02MainActivity​ extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                Toast.makeText(PracticalTest02MainActivity​.this, invisibleTextView.getText().toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(PracticalTest02MainActivity.this, invisibleTextView.getText().toString(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
